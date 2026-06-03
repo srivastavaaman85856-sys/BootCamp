@@ -18,7 +18,7 @@ class Sort012 {
         int count1 = 0;
         int count2 = 0;
 
-        // Count 0s,1s,2s
+        
         for(int i = 0; i < n; i++) {
 
             if(arr[i] == 0)
@@ -33,17 +33,14 @@ class Sort012 {
 
         int i = 0;
 
-        // Fill 0s
         while(count0-- > 0) {
             arr[i++] = 0;
         }
 
-        // Fill 1s
         while(count1-- > 0) {
             arr[i++] = 1;
         }
 
-        // Fill 2s
         while(count2-- > 0) {
             arr[i++] = 2;
         }
